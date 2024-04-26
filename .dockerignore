@@ -1,0 +1,102 @@
+.git
+
+# Binaries for programs and plugins
+
+_.exe
+_.exe~
+_.dll
+_.nupkg
+_.so
+_.dylib
+
+# Test binary, build with `go test -c`
+
+\*.test
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+
+\*.out
+
+# vim swap files
+
+*swp
+*swo
+\*~
+
+# Ping data files
+
+_.ping
+_.pings
+_.population_
+_.percent
+_.cities
+populations
+
+# Discarded code snippets
+
+build.sh
+\*-fast.yaml
+detritus/
+
+# Dotnet Core ignores
+
+_.swp
+_.pdb
+_.deps.json
+_._~
+project.lock.json
+.DS_Store
+_.pyc
+nupkg/
+
+# Visual Studio Code
+
+.vscode
+
+# User-specific files
+
+_.suo
+_.user
+_.userosscache
+_.sln.docstates
+
+# Build results
+
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+build/
+bld/
+[Bb]in/
+[Oo]bj/
+[Oo]ut/
+msbuild.log
+msbuild.err
+msbuild.wrn
+csharp/OpenMatch/obj
+Chart.lock
+
+# Visual Studio 2015
+
+.vs/
+
+# Goland
+
+.idea/
+
+# Install YAML files, Helm is the source of truth for configuration.
+
+install/yaml/
+
+# Temp Directories
+
+tmp/
+
+# Terraform context
+
+.terraform
+_.tfstate
+_.tfstate.backup
